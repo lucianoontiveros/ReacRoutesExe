@@ -6,6 +6,7 @@ import Nosotros from './Pages/Nosotros'
 import Blog from './Pages/Blog'
 import LayoutPublic from "./componentes/layout/LoyoutPublic"
 import NotFound from './Pages/Notfound'
+import BlogDetails from './Pages/BlogDetails'
 
 const App = () => { 
   
@@ -18,6 +19,7 @@ const App = () => {
         <Route  element={<Inicio />} path="/Inicio"></Route>
         <Route  element={<Nosotros />} path="/Nosotros"></Route>
         <Route  element={<Blog />} path="/Blog"></Route>
+        <Route  element={<BlogDetails />} path="/Blog/:id"></Route>
         <Route  element={<NotFound />} path="*"></Route>
       </Route>
     </Routes>

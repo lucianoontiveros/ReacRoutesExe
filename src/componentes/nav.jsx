@@ -4,9 +4,9 @@ const NavBar = () => {
     return(
 
         <div className="navbar navbar-expand-lg bg-dark">
-            <Link className="nav-link m-2 text-light" to="/Inicio">Inicio</Link>
-            <Link className="nav-link m-2 text-light" to="/Nosotros">Nosotros</Link>
-            <Link className="nav-link m-2 text-light" to="/Blog">Blog</Link>
+            <Link className="nav-link m-4 text-light" to="/Inicio">Inicio</Link>
+            <Link className="nav-link m-4 text-light" to="/Nosotros">Nosotros</Link>
+            <Link className="nav-link m-4 text-light" to="/Blog">Blog</Link>
         </div>
     )
 }
